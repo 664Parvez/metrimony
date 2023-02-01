@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --font-color-one: #F60065;
+    --font-color-two: #3CBCB7;
+    --background-color: #122046;
+    --white-color: #ffffff;
+    --dark-color: #606060;
+}
+
+body{
+    background-color: var(--background-color);
+    font-family: 'Righteous', cursive;
+}
+
+a{
+    text-decoration: none;
+}
+
+#navbar{
+    padding: 10px 0;
+    .logo{
+        img{
+            width: 250px;
+            height: auto;
+        }
+    }
+    .phone{
+        a{
+            color: var(--white-color);
+            font-size: 25px;
+        }
+    }
+    .mail{
+        a{
+            color: var(--white-color);
+            font-size: 25px;
+        }
+    }
+    .mobile_version_number{
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px){
+    #navbar{
+        .logo{
+            img{
+                width: 150px;
+                height: auto;
+            }
+        }
+        .phone{
+            display: none
+        }
+        .mail{
+            display: none;
+        }
+        .mobile_version_number{
+            display: block;
+            a{
+                color: var(--white-color);
+                font-size: 18px;
+            }
+        }
+    }
+}
+
+#slogan{
+    background-color: var(--font-color-one);
+    padding: 10px 0;
+    h2{
+        font-family: "Hind Siliguri", Sans-serif;
+        color: var(--white-color);
+        font-size: 50px;
+    }
+}
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #slogan{
+    h2{
+        font-size: 25px;
+    }
+  }  
+}
+
+#header_section{
+    .container{
+        h4{
+            color: var(--font-color-one);
+        }
+        .head_img{
+            padding-top: 20px;
+        }
+        .contact_btn{
+            outline: 2px dashed var(--font-color-two);
+            color: var(--white-color);
+        }
+        .contact_btn:hover{
+            outline: none;
+            background-color: var(--font-color-two);
+        }
+    }
+    .head_img{
+        padding-top: 30px;
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .head_img img{
+        width: 100%;
+        border-radius: 30px;
+    }
+}
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+    #header_section{
+        .head_img{
+            padding-top: 30px;
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+        .head_img img{
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+}
+
+
+#content_two{
+    background-color: var(--font-color-one);
+    padding: 40px 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border-left: 4px solid var(--font-color-two);
+    border-right: 4px solid var(--font-color-two);
+    h3{
+        font-size: 35px;
+        color: var(--white-color);
+    }
+}
+
+
+#service_section{
+    margin-top: 30px;
+    padding-bottom: 20px;
+    .service_div{
+        padding: 40px 20px;
+        background-color: var(--white-color);
+        border-radius: 20px;
+        border-top: 4px solid var(--font-color-one);
+        border-bottom: 4px solid var(--font-color-two);
+        margin-top: 30px;
+        i{
+            font-size: 50px;
+            margin-bottom: 20px;
+        }
+        p{
+            font-size: 18px;
+        }
+    }
+}
+
+
+#content_three{
+    background-color: var(--font-color-two);
+    padding: 40px 40px;
+    border-radius: 20px;
+    margin-top: 30px;
+    border-left: 4px solid var(--font-color-one);
+    border-right: 4px solid var(--font-color-one);
+    h3{
+        font-size: 35px;
+        color: var(--white-color);
+    }
+}
+
+
+#contact_form{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    button{
+        width: 100%;
+        background-color: var(--font-color-two);
+    }
+    label{
+        color: var(--white-color);
+    }
+}
+
+#review_section{
+    margin: 20px 0;
+    .container{
+        iframe{
+            background-color: var(--white-color);
+            padding: 30px;
+            border-radius: 20px;
+        }
+    }
+}
