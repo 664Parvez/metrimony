@@ -192,13 +192,26 @@ a{
     }
 }
 
-#review_section{
+#button_section{
     margin: 20px 0;
+    padding-bottom: 30px;
     .container{
-        iframe{
-            background-color: var(--white-color);
-            padding: 30px;
-            border-radius: 20px;
+        .btn{
+            background-color: var(--font-color-one);
+            color: var(--white-color);
+            width: 100%;
+            font-size: 25px;
+        }
+    }
+}
+
+#copywrite{
+    background-color: var(--font-color-two);
+    padding: 15px 0;
+    p{
+        font-size: 18px;
+        a{
+            color: var(--background-color);
         }
     }
 }

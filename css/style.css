@@ -168,11 +168,24 @@ a {
   color: var(--white-color);
 }
 
-#review_section {
+#button_section {
   margin: 20px 0;
+  padding-bottom: 30px;
 }
-#review_section .container iframe {
-  background-color: var(--white-color);
-  padding: 30px;
-  border-radius: 20px;
+#button_section .container .btn {
+  background-color: var(--font-color-one);
+  color: var(--white-color);
+  width: 100%;
+  font-size: 25px;
+}
+
+#copywrite {
+  background-color: var(--font-color-two);
+  padding: 15px 0;
+}
+#copywrite p {
+  font-size: 18px;
+}
+#copywrite p a {
+  color: var(--background-color);
 }/*# sourceMappingURL=style.css.map */
