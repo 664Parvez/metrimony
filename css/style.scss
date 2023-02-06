@@ -153,6 +153,10 @@ a{
 #service_section{
     margin-top: 30px;
     padding-bottom: 20px;
+    img{
+        width: 80px;
+        height: 80px;
+    }
     .service_div{
         padding: 40px 20px;
         background-color: var(--white-color);
