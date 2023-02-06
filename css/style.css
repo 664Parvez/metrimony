@@ -19,6 +19,11 @@ body {
   font-family: "Hind Siliguri", Sans-serif;
 }
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
 a {
   text-decoration: none;
 }
@@ -86,10 +91,12 @@ a {
 #header_section .container .contact_btn {
   outline: 2px dashed var(--font-color-two);
   color: var(--white-color);
+  padding: 15px 50px;
+  font-size: 25px;
 }
 #header_section .container .contact_btn:hover {
   outline: none;
-  background-color: var(--font-color-two);
+  background-color: var(--font-color-one);
 }
 #header_section .container h3 {
   font-size: 35px;
@@ -174,6 +181,51 @@ a {
   color: var(--white-color);
 }
 
+#price_list {
+  padding-top: 30px;
+  color: var(--white-color);
+}
+#price_list .price_div {
+  border: 2px dashed var(--font-color-one);
+  padding: 15px;
+  border-radius: 20px;
+}
+#price_list #price_subtitle {
+  font-size: 20px;
+}
+#price_list ul li {
+  padding: 10px 0;
+}
+#price_list ul li i {
+  padding: 3px;
+  background-color: var(--font-color-two);
+  border-radius: 50%;
+  font-size: 12px;
+}
+#price_list h2 {
+  color: var(--white-color);
+  font-size: 50px;
+}
+#price_list h3 {
+  padding: 10px 0;
+  color: var(--font-color-two);
+  font-size: 40px;
+}
+#price_list h4 {
+  padding: 20px 0;
+}
+#price_list p {
+  padding: 20px 0;
+}
+#price_list .btn {
+  background-color: var(--font-color-one);
+  color: var(--white-color);
+}
+#price_list .price_div:hover {
+  border: 2px dashed var(--font-color-two);
+  transition: 0.3s ease-in-out;
+}
+
 #contact_form {
   padding-top: 30px;
   padding-bottom: 30px;
@@ -206,4 +258,46 @@ a {
 }
 #copywrite p a {
   color: var(--background-color);
+}
+
+#register_form {
+  border-left: 4px solid var(--font-color-one);
+  border-right: 4px solid var(--font-color-two);
+  margin-top: 12%;
+  margin-bottom: 12%;
+  background-color: var(--white-color);
+  padding: 20px 60px;
+  border-radius: 20px;
+}
+#register_form h1 {
+  color: var(--font-color-one);
+}
+#register_form .btn {
+  background-color: var(--font-color-one);
+  color: var(--white-color);
+}
+
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #register_form {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+#personal_info {
+  border-left: 4px solid var(--font-color-one);
+  border-right: 4px solid var(--font-color-two);
+  background-color: var(--white-color);
+  padding: 20px 60px;
+  margin-bottom: 30px;
+  border-radius: 20px;
+}
+#personal_info h1 {
+  color: var(--font-color-one);
+}
+#personal_info .line {
+  border: 0.5px dashed var(--background-color);
+}
+#personal_info .btn {
+  background-color: var(--font-color-one);
+  color: var(--white-color);
 }/*# sourceMappingURL=style.css.map */
