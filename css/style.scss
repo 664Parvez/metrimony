@@ -109,6 +109,7 @@ a{
             color: var(--white-color);
             padding: 15px 50px;
             font-size: 25px;
+            animation: button_animation 3s infinite;
         }
         .contact_btn:hover{
             outline: none;
@@ -116,6 +117,17 @@ a{
         }
         h3{
             font-size: 35px;
+        }
+        @keyframes button_animation {
+            0%{
+                padding: 15px 50px; 
+            }
+            50%{
+                padding: 15px 65px; 
+            }
+            100%{
+                padding: 15px 50px; 
+            }
         }
     }
     .head_img{
