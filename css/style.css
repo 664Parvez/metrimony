@@ -16,6 +16,7 @@
 body {
   background-color: var(--background-color);
   font-family: "Righteous", cursive;
+  font-family: "Hind Siliguri", Sans-serif;
 }
 
 a {
@@ -77,6 +78,7 @@ a {
 }
 #header_section .container h4 {
   color: var(--font-color-one);
+  font-size: 35px;
 }
 #header_section .container .head_img {
   padding-top: 20px;
@@ -88,6 +90,9 @@ a {
 #header_section .container .contact_btn:hover {
   outline: none;
   background-color: var(--font-color-two);
+}
+#header_section .container h3 {
+  font-size: 35px;
 }
 #header_section .head_img {
   padding-top: 30px;
@@ -141,6 +146,15 @@ a {
 }
 #service_section .service_div p {
   font-size: 18px;
+}
+
+#portfolio_image {
+  margin-top: 30px;
+}
+#portfolio_image img {
+  width: 100%;
+  height: 200px;
+  border-radius: 10px;
 }
 
 #content_three {
