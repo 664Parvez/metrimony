@@ -151,6 +151,9 @@ a {
 }
 
 @media only screen and (min-width: 280px) and (max-width: 428px) {
+  #header_section .container h4 {
+    font-size: 25px;
+  }
   #header_section .head_img {
     padding-top: 30px;
     padding-left: 0px;
@@ -174,6 +177,11 @@ a {
   color: var(--white-color);
 }
 
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #content_two h3 {
+    font-size: 25px;
+  }
+}
 #service_section {
   margin-top: 30px;
   padding-bottom: 20px;
@@ -225,6 +233,11 @@ a {
   color: var(--white-color);
 }
 
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+  #content_three h3 {
+    font-size: 25px;
+  }
+}
 #price_list {
   padding-top: 30px;
   color: var(--white-color);
