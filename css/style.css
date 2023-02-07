@@ -178,6 +178,9 @@ a {
 }
 
 @media only screen and (min-width: 280px) and (max-width: 428px) {
+  #content_two {
+    padding: 40px 15px;
+  }
   #content_two h3 {
     font-size: 25px;
   }
@@ -234,6 +237,9 @@ a {
 }
 
 @media only screen and (min-width: 280px) and (max-width: 428px) {
+  #content_three {
+    padding: 40px 15px;
+  }
   #content_three h3 {
     font-size: 25px;
   }
