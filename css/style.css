@@ -66,6 +66,21 @@ a {
     font-size: 18px;
   }
 }
+@media only screen and (min-width: 768px) and (max-width: 834px) {
+  #navbar .phone {
+    display: none;
+  }
+  #navbar .mail {
+    display: none;
+  }
+  #navbar .mobile_version_number {
+    display: block;
+  }
+  #navbar .mobile_version_number a {
+    color: var(--white-color);
+    font-size: 25px;
+  }
+}
 #slogan {
   background-color: var(--font-color-one);
   padding: 10px 0;
@@ -183,6 +198,11 @@ a {
   font-size: 18px;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 834px) {
+  #service_section .service_div {
+    height: 300px;
+  }
+}
 #portfolio_image {
   margin-top: 30px;
 }
