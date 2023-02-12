@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@500&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-:root{
+:root {
     --font-color-one: #F60065;
     --font-color-two: #3CBCB7;
     --background-color: #122046;
@@ -14,80 +14,92 @@
     --dark-color: #606060;
 }
 
-body{
+body {
     background-color: var(--background-color);
     font-family: 'Righteous', cursive;
     font-family: "Hind Siliguri", Sans-serif;
 }
 
-ul{
+ul {
     list-style: none;
     padding-left: 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-#navbar{
+#navbar {
     padding: 10px 0;
-    .logo{
-        img{
+
+    .logo {
+        img {
             width: 250px;
             height: auto;
         }
     }
-    .phone{
-        a{
+
+    .phone {
+        a {
             color: var(--white-color);
             font-size: 25px;
         }
     }
-    .mail{
-        a{
+
+    .mail {
+        a {
             color: var(--white-color);
             font-size: 25px;
         }
     }
-    .mobile_version_number{
+
+    .mobile_version_number {
         display: none;
     }
 }
 
-@media only screen and (min-width: 280px) and (max-width: 428px){
-    #navbar{
-        .logo{
-            img{
+@media only screen and (min-width: 280px) and (max-width: 428px) {
+    #navbar {
+        .logo {
+            img {
                 width: 150px;
                 height: auto;
             }
         }
-        .phone{
+
+        .phone {
             display: none
         }
-        .mail{
+
+        .mail {
             display: none;
         }
-        .mobile_version_number{
+
+        .mobile_version_number {
             display: block;
-            a{
+
+            a {
                 color: var(--white-color);
                 font-size: 18px;
             }
         }
     }
 }
+
 @media only screen and (min-width: 500px) and (max-width: 834px) {
-    #navbar{
-        .phone{
+    #navbar {
+        .phone {
             display: none;
         }
-        .mail{
+
+        .mail {
             display: none;
         }
-        .mobile_version_number{
+
+        .mobile_version_number {
             display: block;
-            a{
+
+            a {
                 color: var(--white-color);
                 font-size: 25px;
             }
@@ -97,81 +109,95 @@ a{
 
 
 
-#slogan{
+#slogan {
     background-color: var(--font-color-one);
     padding: 10px 0;
-    h2{
+
+    h2 {
         font-family: "Hind Siliguri", Sans-serif;
         color: var(--white-color);
         font-size: 50px;
     }
 }
+
 @media only screen and (min-width: 280px) and (max-width: 428px) {
-  #slogan{
-    h2{
-        font-size: 25px;
+    #slogan {
+        h2 {
+            font-size: 25px;
+        }
     }
-  }  
 }
 
-#header_section{
-    .container{
-        h4{
+#header_section {
+    .container {
+        h4 {
             color: var(--font-color-one);
             font-size: 35px;
         }
-        .head_img{
+
+        .head_img {
             padding-top: 20px;
         }
-        .contact_btn{
+
+        .contact_btn {
             outline: 2px dashed var(--font-color-two);
             color: var(--white-color);
             padding: 15px 50px;
             font-size: 25px;
             animation: button_animation 3s infinite;
         }
-        .contact_btn:hover{
+
+        .contact_btn:hover {
             outline: none;
             background-color: var(--font-color-one);
         }
-        h3{
+
+        h3 {
             font-size: 35px;
         }
+
         @keyframes button_animation {
-            0%{
-                padding: 15px 50px; 
+            0% {
+                padding: 15px 50px;
             }
-            50%{
-                padding: 15px 65px; 
+
+            50% {
+                padding: 15px 65px;
             }
-            100%{
-                padding: 15px 50px; 
+
+            100% {
+                padding: 15px 50px;
             }
         }
     }
-    .head_img{
+
+    .head_img {
         padding-top: 30px;
         padding-left: 50px;
         padding-right: 50px;
     }
-    .head_img img{
+
+    .head_img img {
         width: 100%;
         border-radius: 30px;
     }
 }
+
 @media only screen and (min-width: 280px) and (max-width: 428px) {
-    #header_section{
-        .container{
-            h4{
+    #header_section {
+        .container {
+            h4 {
                 font-size: 25px;
-            } 
+            }
         }
-        .head_img{
+
+        .head_img {
             padding-top: 30px;
             padding-left: 0px;
             padding-right: 0px;
         }
-        .head_img img{
+
+        .head_img img {
             width: 100%;
             border-radius: 10px;
         }
@@ -179,104 +205,120 @@ a{
 }
 
 
-#content_two{
+#content_two {
     background-color: var(--font-color-one);
     padding: 40px 40px;
     border-radius: 20px;
     margin-top: 30px;
     border-left: 4px solid var(--font-color-two);
     border-right: 4px solid var(--font-color-two);
-    h3{
+
+    h3 {
         font-size: 35px;
         color: var(--white-color);
     }
 }
+
 @media only screen and (min-width: 280px) and (max-width: 428px) {
-    #content_two{
+    #content_two {
         padding: 40px 15px;
-        h3{
+
+        h3 {
             font-size: 25px;
         }
     }
 }
 
-#service_section{
+#service_section {
     margin-top: 30px;
     padding-bottom: 20px;
-    img{
+
+    img {
         width: 80px;
         height: 80px;
     }
-    .service_div{
+
+    .service_div {
         padding: 40px 20px;
         background-color: var(--white-color);
         border-radius: 20px;
         border-top: 4px solid var(--font-color-one);
         border-bottom: 4px solid var(--font-color-two);
         margin-top: 30px;
-        i{
+
+        i {
             font-size: 50px;
             margin-bottom: 20px;
         }
-        p{
+
+        p {
             font-size: 18px;
         }
     }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 834px) {
-    #service_section{
+    #service_section {
         .service_div {
             height: 300px;
         }
     }
 }
 
-#portfolio_image{
+#portfolio_image {
     margin-top: 30px;
-    img{
+
+    img {
         width: 100%;
-        height: 200px;
+        height: 300px;
         border-radius: 10px;
     }
 }
 
 
-#content_three{
+#content_three {
     background-color: var(--font-color-two);
     padding: 40px 40px;
     border-radius: 20px;
     margin-top: 30px;
     border-left: 4px solid var(--font-color-one);
     border-right: 4px solid var(--font-color-one);
-    h3{
+
+    h3 {
         font-size: 35px;
         color: var(--white-color);
     }
 }
+
 @media only screen and (min-width: 280px) and (max-width: 428px) {
-    #content_three{
+    #content_three {
         padding: 40px 15px;
-        h3{
+
+        h3 {
             font-size: 25px;
         }
     }
 }
 
-#price_list{
+#price_list {
     padding-top: 30px;
     color: var(--white-color);
-    .price_div{
+
+    .price_div {
         border: 2px dashed var(--font-color-one);
         padding: 15px;
         border-radius: 20px;
     }
-    #price_subtitle{
+
+    #price_subtitle {
         font-size: 20px;
     }
-    ul{
-        li{
+
+    ul {
+        li {
             padding: 10px 0;
-            i{
+
+            i {
                 padding: 3px;
                 background-color: var(--font-color-two);
                 border-radius: 50%;
@@ -284,48 +326,57 @@ a{
             }
         }
     }
-    h2{
+
+    h2 {
         color: var(--white-color);
         font-size: 50px;
     }
-    h3{
+
+    h3 {
         padding: 10px 0;
         color: var(--font-color-two);
         font-size: 40px;
     }
-    h4{
+
+    h4 {
         padding: 20px 0;
     }
-    p{
+
+    p {
         padding: 20px 0;
     }
+
     .btn {
         background-color: var(--font-color-one);
         color: var(--white-color);
     }
+
     .price_div:hover {
         border: 2px dashed var(--font-color-two);
         transition: .3s ease-in-out;
     }
 }
 
-#contact_form{
+#contact_form {
     padding-top: 30px;
     padding-bottom: 30px;
-    button{
+
+    button {
         width: 100%;
         background-color: var(--font-color-two);
     }
-    label{
+
+    label {
         color: var(--white-color);
     }
 }
 
-#button_section{
+#button_section {
     margin: 20px 0;
     padding-bottom: 30px;
-    .container{
-        .btn{
+
+    .container {
+        .btn {
             background-color: var(--font-color-one);
             color: var(--white-color);
             width: 100%;
@@ -334,12 +385,14 @@ a{
     }
 }
 
-#copywrite{
+#copywrite {
     background-color: var(--font-color-two);
     padding: 15px 0;
-    p{
+
+    p {
         font-size: 18px;
-        a{
+
+        a {
             color: var(--background-color);
         }
     }
@@ -348,24 +401,28 @@ a{
 
 // Registration Page
 
-#register_form{
+#register_form {
     border-left: 4px solid var(--font-color-one);
     border-right: 4px solid var(--font-color-two);
-    h1{
+
+    h1 {
         color: var(--font-color-one);
     }
+
     margin-top: 12%;
     margin-bottom: 12%;
     background-color: var(--white-color);
     padding: 20px 60px;
     border-radius: 20px;
+
     .btn {
         background-color: var(--font-color-one);
         color: var(--white-color);
     }
 }
+
 @media only screen and (min-width: 280px) and (max-width: 428px) {
-    #register_form{
+    #register_form {
         padding-left: 10px;
         padding-right: 10px;
     }
@@ -375,20 +432,23 @@ a{
 
 // Personal Info
 
-#personal_info{
+#personal_info {
     border-left: 4px solid var(--font-color-one);
     border-right: 4px solid var(--font-color-two);
     background-color: var(--white-color);
     padding: 20px 60px;
     margin-bottom: 30px;
     border-radius: 20px;
-    h1{
+
+    h1 {
         color: var(--font-color-one);
     }
-    .line{
+
+    .line {
         border: .5px dashed var(--background-color);
     }
-    .btn{
+
+    .btn {
         background-color: var(--font-color-one);
         color: var(--white-color);
     }
